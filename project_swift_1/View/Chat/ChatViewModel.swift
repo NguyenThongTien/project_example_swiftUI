@@ -44,6 +44,16 @@ final class ChatViewModel: ObservableObject {
                 image: "meIcon",
                 title: "Hoàng Văn D",
                 subTitle: "Bạn ơi, bạn khoẻ không?"
+            ),
+            ChatModel(
+                image: "meIcon",
+                title: "Hoàng Văn C",
+                subTitle: "Bạn ơi, bạn khoẻ không?"
+            ),
+            ChatModel(
+                image: "meIcon",
+                title: "Hoàng Văn D",
+                subTitle: "Bạn ơi, bạn khoẻ không?"
             )
         ]
     }

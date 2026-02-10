@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct ZoneCell: View {
+    var image: String
+    var title: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Image(image).resizable().scaledToFit().frame(width: 50)
+            Text(title)
+            .font(Font.system(size: 10))
+            .foregroundColor(Color.gray)
+            .frame(alignment: .center)
+        }
     }
 }
 
 #Preview {
-    ZoneCell()
+    ZoneCell(image: "meIcon", title: "Nguyễn Thông Tiến")
 }
